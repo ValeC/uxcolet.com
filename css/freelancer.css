@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 1.5px;
+  font-size: 1.2em;
 }
 p.small {
   font-size: 16px;
@@ -30,17 +30,21 @@ a.active {
 }
 h1,
 h2,
-h3,
-h5 {
+h3 {
   font-family: "Avenir Next", "Avenir Next", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 h4 {
   text-transform: none ;
 }
+h5 {
+  text-transform: none ;
+  font-size: 20px;
+}
 h6 {
   text-transform: uppercase;
   font-weight: 600;
+  font-size: 16px;
 }
 hr.star-light,
 hr.star-primary {
@@ -99,7 +103,7 @@ header .intro-text .name {
   text-align: center;
 }
 header .intro-text .skills {
-  font-size: 2.4rem;
+  font-size: 1.5em;
   font-weight: 400;
   text-align: left;
 }
@@ -109,7 +113,7 @@ header .intro-text .skills {
     padding-bottom: 80px;
   }
   header .intro-text .name {
-    font-size: 2.4rem;
+    font-size: 1.5em;
   }
   header .intro-text .skills {
     font-size: 1.2em;
@@ -178,7 +182,7 @@ header .intro-text .skills {
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
-    font-size: 2em;
+    font-size: 1.5em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -314,6 +318,7 @@ footer {
 }
 footer h3 {
   margin-bottom: 30px;
+  font-size: 1.5em;
 }
 footer .footer-above {
   padding-top: 50px;

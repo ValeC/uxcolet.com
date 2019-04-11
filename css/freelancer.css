@@ -55,6 +55,7 @@ hr.star-primary {
   max-width: 90px;
   margin: 25px auto 30px;
 }
+
 hr.star-light:after,
 hr.star-primary:after {
   content: "";
@@ -500,7 +501,7 @@ fieldset[disabled] .btn-success.active {
 }
 
 .portfolio-modal .close-modal {
-  position: absolute;
+  position: fixed;
   width: 75px;
   height: 75px;
   background-color: transparent;

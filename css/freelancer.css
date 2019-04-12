@@ -167,7 +167,7 @@ header .intro-text .skills {
   color: #555d6d;
   text-transform: uppercase;
   font-size: 2.4rem;
-  border-color: white;
+  border-color: #f8f9fa;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {

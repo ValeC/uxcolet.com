@@ -133,6 +133,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-brand {
   color: #555d6d;
+  padding-top: 20px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -174,7 +175,6 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
     padding: 15px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
